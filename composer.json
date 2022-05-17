@@ -1,0 +1,19 @@
+{
+    "name": "jwtc/qccx-rpc-client",
+    "description": "基于阿里SAE和网关路由的一个RPC客户端 部署在SAE的各个PHP服务间通过此客户端进行相互调用",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin",
+            "email": "justin1210@foxmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {"jwtc\\rpc\\": "./src"}
+    }
+}
